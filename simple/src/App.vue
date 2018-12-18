@@ -5,7 +5,9 @@
     <!-- <Radio/> -->
     <!-- <checkbox/> -->
     <!-- <Input /> -->
-    <Select/>
+    <!-- <Select/> -->
+    <!-- <Form/> -->
+    <Table />
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import Radio from "./components/Radio";
 import Checkbox from "./components/Checkbox";
 import Input from "./components/Input";
 import Select from "./components/Select";
+import Form from "./components/Form";
+import Table from "./components/Table";
 export default {
   name: "App",
   components: {
@@ -22,7 +26,9 @@ export default {
     Radio,
     Checkbox,
     Input,
-    Select
+    Select,
+    Form,
+    Table
   }
 };
 </script>
