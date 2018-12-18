@@ -7,7 +7,8 @@
     <!-- <Input /> -->
     <!-- <Select/> -->
     <!-- <Form/> -->
-    <Table />
+    <!-- <Table /> -->
+    <Tag />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import Input from "./components/Input";
 import Select from "./components/Select";
 import Form from "./components/Form";
 import Table from "./components/Table";
+import Tag from "./components/Tag"
 export default {
   name: "App",
   components: {
@@ -28,7 +30,8 @@ export default {
     Input,
     Select,
     Form,
-    Table
+    Table,
+    Tag
   }
 };
 </script>
