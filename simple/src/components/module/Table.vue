@@ -5,8 +5,7 @@
       width="100%"
       :stripe="true"
       :border="true"
-      :row-class-name="tableRowClassName"
-      height="280px"
+      :row-class-name="tableRowClassName"     
       ref="singleTable"
       highlight-current-row
       @current-change="handleCurrentChange"
@@ -22,12 +21,7 @@
           <el-table-column label="地址" prop="address" :show-overflow-tooltip="true"></el-table-column>
           <el-table-column label="邮编" sortable prop="email"></el-table-column>
         </el-table-column>
-      </el-table-column>
-      <!-- <el-table-column prop="name" label="姓名" width="120px"></el-table-column>
-      <el-table-column prop="address" label="地址" width="120px"></el-table-column>
-      <el-table-column prop="date" label="日期" width="120px" :fixed="true"></el-table-column>
-      <el-table-column prop="name" label="姓名" width="120px"></el-table-column>
-      <el-table-column prop="address" label="地址" width="300"></el-table-column>-->
+      </el-table-column>     
       <el-table-column
         prop="tag"
         label="标签"
@@ -50,10 +44,10 @@
         </template>
       </el-table-column>
     </el-table>
-    <div style="margin-top: 20px">
+    <!-- <div style="margin-top: 20px">
       <el-button @click="setCurrent(tableData[1])">选中第二行</el-button>
       <el-button @click="setCurrent()">取消选择</el-button>
-    </div>
+    </div> -->
   </div>
 </template>
 
