@@ -28,11 +28,16 @@
          :max="10"
          @change="handleClick"        
          :controls="false"></el-input-number>
+         <Radio disabled="false"/>
   </div>
 </template>
 <script>
+import Radio from './Radio'
 export default {
   name: "Input",
+  components:{
+    Radio
+  },
   data() {
     return {
       input1: "",

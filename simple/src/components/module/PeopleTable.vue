@@ -36,7 +36,7 @@ export default {
   methods: {
     deletePerson: function(index) {
       // 删一个数组元素
-      this.$route.query.data.splice(index, 1);
+      // this.$route.query.data.splice(index, 1);     
     }
   }
 };
